@@ -158,7 +158,6 @@
                 name="contact"
                 method="POST"
                 data-netlify="true"
-                netlify
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div class="form-floating mb-3">
@@ -219,13 +218,5 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script>
-      document
-        .getElementById("contactForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-          alert("Dziękujemy za zgłoszenie, wkrótce odezwiemy się spowrotem.");
-        });
-    </script>
   </body>
 </html>

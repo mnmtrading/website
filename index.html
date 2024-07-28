@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M&M Trading - Amazon FBA Specialists</title>
+    <title>TradeNest</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,43 +23,80 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/favicon/apple-touch-icon.png"
+      href="/favicon_io/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/favicon/favicon-32x32.png"
+      href="/favicon_io/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/favicon/favicon-16x16.png"
+      href="/favicon_io/favicon-16x16.png"
     />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
-    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <link rel="shortcut icon" href="/favicon_io/favicon.ico" />
     <style>
       body {
         font-family: "Roboto", sans-serif;
       }
       .bg-amazon-blue {
-        background-color: #232f3e;
+        background-color: #ffffff;
       }
       .btn-amazon-orange {
-        background-color: #ff9900;
-        border-color: #ff9900;
+        background-color: #3c7bc4;
+        border-color: #3c7bc4;
       }
       .btn-amazon-orange:hover {
-        background-color: #e88a00;
-        border-color: #e88a00;
+        background-color: #3c7bc4;
+        border-color: #3c7bc4;
+      }
+
+      .nav-link {
+        color: black;
+      }
+
+      .nav-link:hover {
+        color: #555555;
+      }
+
+      .custom-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+      }
+
+      .display-5 {
+        font-family: "Saira", sans-serif;
+      }
+
+      .btn {
+        background-color: #3c7bc4;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #2a5a8e;
+      }
+
+      @media (max-width: 991.98px) {
+        #about .position-absolute {
+          position: static !important;
+          transform: none !important;
+          margin-top: -3rem;
+          width: 100%;
+        }
       }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-amazon-blue">
       <div class="container">
-        <a class="navbar-brand" href="#">M&M Trading</a>
+        <a class="navbar-brand" href="#"
+          ><div>
+            <img src="/TradeNest-logo-text-fit.png" alt="" height="50" /></div
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -65,30 +106,30 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon custom-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">O nas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Jak Działamy?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Kontakt</a>
-            </li>
-          </ul>
-        </div>
+        <div class="collapse navbar-collapse" id="navbarNav" style=>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Jak Działamy?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <header class="bg-light pt-5">
+    <header class="pt-5">
       <div class="container px-5">
         <div class="row gx-5 justify-content-center">
           <div class="col-lg-6">
             <div class="text-center my-5">
-              <h1 class="display-5 fw-bolder text-dark mb-2">M&M Trading</h1>
+              <img src="/TradeNest-Logo-T.png" alt="" height="100" />
+              <h1 class="display-5 fw-bolder text-dark mb-2">TRADENEST</h1>
               <p class="lead text-muted">Twój zaufany partner Amazon FBA</p>
             </div>
           </div>
@@ -98,16 +139,29 @@
 
     <main>
       <section id="about" class="mt-5 py-5">
-        <div class="container px-5">
-          <div class="row gx-5 justify-content-center">
-            <div class="col-lg-8 col-xl-6">
-              <div class="text-center">
-                <h2 class="fw-bolder mb-5">O nas</h2>
-                <p class="lead mb-0">
-                  M&M Trading to firma zajmująca się handlem detalicznym
-                  szerokiej gamy produków online, za pośrednictwem serwisu
-                  Amazon. Działamy na największych rynkach europejskich takich
-                  jak Niemcy, Francja, Włochy, Hiszpania i Polska.
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-lg-9 col-xl-8">
+              <img
+                src="/warehouse.jpeg"
+                alt="Warehouse stock"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div
+              class="col-lg-7 col-xl-6 position-absolute top-50 translate-middle-y"
+              style="right: 0%"
+            >
+              <div
+                class="text-white p-4 shadow"
+                style="background-color: #3c7bc4"
+              >
+                <h1 class="fw-bolder mb-3">O nas</h1>
+                <p class="mb-0 fs-5">
+                  TradeNest to firma zajmująca się handlem detalicznym szerokiej
+                  gamy produków online, za pośrednictwem serwisu Amazon.
+                  Działamy na największych rynkach europejskich takich jak
+                  Niemcy, Francja, Włochy, Hiszpania i Polska.
                 </p>
               </div>
             </div>
@@ -117,29 +171,34 @@
 
       <section id="services" class="">
         <div class="container px-4 py-5 mt-5" id="featured-3">
-          <h2 class="pb-2 text-center mb-5">Jak działamy?</h2>
+          <h1 class="pb-2 text-center mb-5">Jak działamy?</h1>
           <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
-              <h3 class="fs-2 text-body-emphasis">Selekcja produktów</h3>
-              <p>
+              <h3 class="fs-2 mb-4 text-body-emphasis">
+                <span style="color: #3c7bc4">1.</span> Selekcja produktów
+              </h3>
+              <p class="fs-5">
                 Na bieżąco testujemy nowe produkty, analizujemy ich wyniki
                 sprzedaży i wprowadzamy je do naszej oferty.
               </p>
             </div>
             <div class="feature col">
-              <h3 class="fs-2 text-body-emphasis">Optymalizacja Listingów</h3>
-              <p>
+              <h3 class="fs-2 mb-4 text-body-emphasis">
+                <span style="color: #3c7bc4">2.</span> Optymalizacja Ogłoszeń
+              </h3>
+              <p class="fs-5">
                 Wdrażamy kompleksową optymalizację naszych ogłoszeń i
                 implementujemy reklamy PPC na platformie.
               </p>
             </div>
             <div class="feature col">
-              <h3 class="fs-2 text-body-emphasis">Realizacja Zamówień</h3>
-              <p>
+              <h3 class="fs-2 mb-4 text-body-emphasis">
+                <span style="color: #3c7bc4">3.</span> Realizacja Zamówień
+              </h3>
+              <p class="fs-5">
                 Dzięki programowi FBA (Fulfilled by Amazon), korzystamy z
-                infrastruktury wysyłkowej i magazynowej Amazon, przez co
-                w efektywny sposób docieramy do klientów na
-                terenie całej europy.
+                infrastruktury wysyłkowej i magazynowej Amazon, przez co w
+                efektywny sposób docieramy do klientów na terenie całej europy.
               </p>
             </div>
           </div>
@@ -210,10 +269,10 @@
 
     <footer class="py-4 bg-amazon-blue">
       <div class="container px-5">
-        <p class="m-0 text-center text-white">
-          Copyright &copy; 2024 M&M Trading. Wszelkie prawa zastrzerzone.
+        <p class="m-0 text-center text-black">
+          Copyright &copy; 2024 TradeNest. Wszelkie prawa zastrzerzone.
         </p>
-        <p class="m-0 text-center text-white">contact@mnmtrading.net</p>
+        <p class="m-0 text-center text-black">contact@tradenest.eu</p>
       </div>
     </footer>
 
